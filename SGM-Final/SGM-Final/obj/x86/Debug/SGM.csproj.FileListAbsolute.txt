@@ -1,7 +1,0 @@
-C:\Users\Taro Nguyen\Documents\GitHub\SGM-new\SGM\obj\x86\Debug\SGM.csprojResolveAssemblyReference.cache
-C:\Users\Taro Nguyen\Documents\GitHub\SGM-new\SGM\obj\x86\Debug\SGM.MainWindow.resources
-C:\Users\Taro Nguyen\Documents\GitHub\SGM-new\SGM\obj\x86\Debug\SGM.csproj.GenerateResource.Cache
-C:\Users\Taro Nguyen\Documents\GitHub\SGM-new\SGM\bin\Debug\SGM.exe
-C:\Users\Taro Nguyen\Documents\GitHub\SGM-new\SGM\bin\Debug\SGM.pdb
-C:\Users\Taro Nguyen\Documents\GitHub\SGM-new\SGM\obj\x86\Debug\SGM.exe
-C:\Users\Taro Nguyen\Documents\GitHub\SGM-new\SGM\obj\x86\Debug\SGM.pdb
