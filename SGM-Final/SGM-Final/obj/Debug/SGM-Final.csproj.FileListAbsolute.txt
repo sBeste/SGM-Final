@@ -1,1 +1,2 @@
 c:\users\taro nguyen\documents\visual studio 2013\Projects\SGM-Final\SGM-Final\bin\Debug\SGM-Final.exe.config
+C:\Users\Taro Nguyen\Documents\GitHub\SGM-Final\SGM-Final\SGM-Final\bin\Debug\SGM-Final.exe.config
