@@ -2,11 +2,9 @@
 
 namespace SGM
 {
-	public class Product
+	interface Product
 	{
-		public Product ()
-		{
-		}
+		double getPrice();
+		String getName();
 	}
 }
-
