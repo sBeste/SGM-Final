@@ -12,7 +12,6 @@ namespace SGM_Final
         [STAThread]
         static void Main()
         {
-            //TestKommentar für Commit
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainWindow());
