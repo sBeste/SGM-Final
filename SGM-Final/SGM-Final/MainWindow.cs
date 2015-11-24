@@ -36,7 +36,7 @@ namespace SGM_Final
 
 		private void listView1_SelectedIndexChanged(object sender, EventArgs e)
 		{
-		//test
+
 		}
 	}
 }
