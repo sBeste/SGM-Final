@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SGM_FInal
+namespace SGM_Final
 {
 	public class Burger : Product
 	{
