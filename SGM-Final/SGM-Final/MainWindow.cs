@@ -15,6 +15,22 @@ namespace SGM_Final
 
         private void button1_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Hier neues Fenster für eine neue Bestellung");
+        }
+
+        private void kundenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            addCustomerWindow newCustomer = new addCustomerWindow();
+            newCustomer.ShowDialog();
+        }
+
+        private void kasseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MainWindow_Load(object sender, EventArgs e)
+        {
 
         }
     }
