@@ -83,7 +83,6 @@
     <Compile Include="Class\Bill.cs" />
     <Compile Include="Class\Cashdesk.cs" />
     <Compile Include="Class\Customer.cs" />
-    <Compile Include="Class\Menu.cs" />
     <Compile Include="Class\Order.cs" />
     <Compile Include="Class\Product.cs" />
     <Compile Include="Class\Burger.cs" />
