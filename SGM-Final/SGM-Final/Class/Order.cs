@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SGM
+namespace SGM_Final
 {
 	public class Order
 	{

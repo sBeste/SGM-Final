@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SGM
+namespace SGM_Final
 {
 	public class Cashdesk
 	{
