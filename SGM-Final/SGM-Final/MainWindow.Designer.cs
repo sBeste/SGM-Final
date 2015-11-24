@@ -48,7 +48,7 @@
             this.orderButton.TabIndex = 0;
             this.orderButton.Text = "Bestellen";
             this.orderButton.UseVisualStyleBackColor = true;
-            this.orderButton.Click += new System.EventHandler(this.button1_Click);
+            this.orderButton.Click += new System.EventHandler(this.orderButton_Click);
             // 
             // contextMenuStrip1
             // 
