@@ -10,31 +10,31 @@ using System.Windows.Forms;
 
 namespace SGM_Final
 {
-    public partial class addCustomerWindow : Form
-    {
-        public addCustomerWindow()
-        {
-            InitializeComponent();
-        }
+	public partial class addCustomerWindow : Form
+	{
+		public addCustomerWindow()
+		{
+			InitializeComponent();
+		}
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
+		private void textBox1_TextChanged(object sender, EventArgs e)
+		{
 
-        }
+		}
 
-        private void label1_Click(object sender, EventArgs e)
-        {
+		private void label1_Click(object sender, EventArgs e)
+		{
 
-        }
+		}
 
-        private void TestButton_Click(object sender, EventArgs e)
-        {
+		private void TestButton_Click(object sender, EventArgs e)
+		{
 
-        }
+		}
 
-        private void addCustomerButton_Click(object sender, EventArgs e)
-        {
-            //@TODO Kunde erstellen und in Liste hinzufügen
-        }
-    }
+		private void addCustomerButton_Click(object sender, EventArgs e)
+		{
+			//@TODO Kunde erstellen und in Liste hinzufügen
+		}
+	}
 }

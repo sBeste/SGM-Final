@@ -4,17 +4,17 @@ using System.Windows.Forms;
 
 namespace SGM_Final
 {
-    static class Program
-    {
-        /// <summary>
-        /// Der Haupteinstiegspunkt für die Anwendung.
-        /// </summary>
-        [STAThread]
-        static void Main()
-        {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainWindow());
-        }
-    }
+	static class Program
+	{
+		/// <summary>
+		/// Der Haupteinstiegspunkt für die Anwendung.
+		/// </summary>
+		[STAThread]
+		static void Main()
+		{
+			Application.EnableVisualStyles();
+			Application.SetCompatibleTextRenderingDefault(false);
+			Application.Run(new MainWindow());
+		}
+	}
 }
