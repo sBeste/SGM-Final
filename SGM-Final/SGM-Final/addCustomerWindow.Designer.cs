@@ -95,6 +95,7 @@
             this.addCustomerButton.TabIndex = 7;
             this.addCustomerButton.Text = "hinzufügen";
             this.addCustomerButton.UseVisualStyleBackColor = true;
+            this.addCustomerButton.Click += new System.EventHandler(this.addCustomerButton_Click);
             // 
             // addCustomerWindow
             // 

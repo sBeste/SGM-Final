@@ -26,5 +26,15 @@ namespace SGM_Final
         {
 
         }
+
+        private void TestButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void addCustomerButton_Click(object sender, EventArgs e)
+        {
+            //@TODO Kunde erstellen und in Liste hinzufügen
+        }
     }
 }
