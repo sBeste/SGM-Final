@@ -8,8 +8,8 @@ namespace SGM_Final
 		public string Name {get; private set;}
 		public double Price {get; private set;}
 		public int Stock {get; private set;}
-		/*
-        public List<Product> ProductList = new List<Product>();
+
+        private List<Product> ProductList;
 
 		
         public Menu (string Name, double Price, List<Product> ProductList, int Stock)
@@ -17,9 +17,9 @@ namespace SGM_Final
 			this.Name = Name;
 			this.Price = Price;
 			this.Stock = Stock;
-			this.ProductList.AddRange(ProductList);
+			this.ProductList = ProductList;
 		}
-        */
+      
 		public int setStock (int Stock)
 		{
 				this.Stock = Stock;
