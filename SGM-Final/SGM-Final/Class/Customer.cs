@@ -14,12 +14,20 @@ namespace SGM_Final
 			this.FirstName = FirstName;
 			this.Name = Name;
 			this.CreditBalance = CreditBalance;
+			this.order = new Order ();
 		}
 
 		public double pay (double amount) {
 			this.CreditBalance = this.CreditBalance - amount;
 
 			return this.CreditBalance;
+		}
+
+		public void addProduct(Product product)
+		{
+			if (product != null) {
+				order.addProduct (product);
+			}
 		}
 	}
 }
