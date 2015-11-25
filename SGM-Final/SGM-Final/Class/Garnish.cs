@@ -5,7 +5,7 @@ namespace SGM_Final
 	public class Garnish : Product
 	{
 		public static Garnish POMMES = new Garnish("Pommes", 1.0);
-		public static Garnish SALAd = new Garnish("Salat", 1.0);
+		public static Garnish SALAD = new Garnish("Salat", 1.0);
 
 		private String name;
 		private double price;
