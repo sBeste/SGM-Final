@@ -11,6 +11,8 @@
     <AssemblyName>SGM-Final</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -88,6 +90,7 @@
     <Compile Include="Class\Burger.cs" />
     <Compile Include="Class\Drink.cs" />
     <Compile Include="Class\Sauce.cs" />
+    <Compile Include="Class\Garnish.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
