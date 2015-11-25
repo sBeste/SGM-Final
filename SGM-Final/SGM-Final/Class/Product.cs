@@ -2,7 +2,7 @@
 
 namespace SGM_Final
 {
-	interface Product
+	public interface Product
 	{
 		double getPrice();
 		String getName();

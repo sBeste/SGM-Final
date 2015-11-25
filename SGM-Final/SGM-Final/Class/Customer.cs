@@ -25,9 +25,7 @@ namespace SGM_Final
 
 		public void addProduct(Product product)
 		{
-			if (product != null) {
-				order.addProduct (product);
-			}
+			order.addProduct (product);
 		}
 	}
 }
