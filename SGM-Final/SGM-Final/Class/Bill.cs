@@ -10,14 +10,7 @@ namespace SGM_Final
 
 		public double calculate(Order order)
 		{
-			double result = 0;
-
-			foreach (Product product in order.getProducts())
-			{
-				result = result + product.getPrice();
-			}
-
-			return result;
+			return Product.Sum(t => t.getPrice() ?? 0);
 		}
 
 	}
