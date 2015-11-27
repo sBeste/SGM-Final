@@ -11,7 +11,7 @@ namespace SGM_Final
 
 		public double calculate(Order order)
 		{
-			return order.getProducts().Sum(t => t.getPrice() ?? 0);
+			return order.getProducts().Sum(t => t.getPrice());
 		}
 
 	}
