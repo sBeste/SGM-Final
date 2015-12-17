@@ -43,7 +43,6 @@
 			this.vornameField.Name = "vornameField";
 			this.vornameField.Size = new System.Drawing.Size(285, 26);
 			this.vornameField.TabIndex = 0;
-			this.vornameField.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
 			// 
 			// budgetField
 			// 

@@ -30,5 +30,15 @@ namespace SGM_Final
 			//Kunden einreihen
 			cashDesk.Queue.Enqueue (newCustomer);
 		}
+
+		private void addCustomerWindow_Load(object sender, EventArgs e)
+		{
+
+		}
+
+		private void textBox4_TextChanged(object sender, EventArgs e)
+		{
+
+		}
 	}
 }
