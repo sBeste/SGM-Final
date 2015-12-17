@@ -25,7 +25,7 @@ namespace SGM_Final
 			//Kasse erstellen - @ToDo: An zentrale stelle verschieben
 			Cashdesk cashDesk = new Cashdesk ();
 
-			Customer newCustomer = new Customer (this.textBox1.Text, this.textBox2.Text, Convert.ToDouble(this.textBox3.Text));
+			Customer newCustomer = new Customer (this.vornameField.Text, this.nachnameField.Text, Convert.ToDouble(this.budgetField.Text));
 
 			//Kunden einreihen
 			cashDesk.Queue.Enqueue (newCustomer);
