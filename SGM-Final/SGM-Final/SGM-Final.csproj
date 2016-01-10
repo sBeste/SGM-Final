@@ -50,6 +50,12 @@
     <Compile Include="addCustomerWindow.Designer.cs">
       <DependentUpon>addCustomerWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="customerOrderWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="customerOrderWindow.Designer.cs">
+      <DependentUpon>customerOrderWindow.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="addCustomerWindow.resx">
       <DependentUpon>addCustomerWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customerOrderWindow.resx">
+      <DependentUpon>customerOrderWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainWindow.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>
