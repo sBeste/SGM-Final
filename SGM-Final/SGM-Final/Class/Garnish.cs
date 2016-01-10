@@ -16,12 +16,12 @@ namespace SGM_Final
 			this.price = price;
 		}
 
-		String Product.getName()
+		public override String getName()
 		{
 			return this.name;
 		}
 
-		double Product.getPrice()
+		public override double getPrice()
 		{
 			return this.price;
 		}

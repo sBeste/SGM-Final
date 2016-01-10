@@ -1,10 +1,16 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace SGM_Final
 {
-	public interface Product
+	public abstract class Product
 	{
-		double getPrice();
-		String getName();
+
+		protected List<Product> products;
+
+
+
+		public abstract double getPrice();
+		public abstract String getName();
 	}
 }

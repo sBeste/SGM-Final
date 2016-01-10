@@ -28,5 +28,12 @@ namespace SGM_Final
 		{
 			CurrentCustomer.pay(amount);
 		}
+
+		public void addCustomer(Customer customer) 
+		{
+			if (customer == null)
+				return;
+			Queue.Enqueue (customer);
+		}
 	}
 }
