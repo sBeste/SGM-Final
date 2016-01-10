@@ -19,7 +19,7 @@ namespace SGM_Final
 
 		private void Burger_Click(object sender, EventArgs e)
 		{
-			MessageBox.Show("hahhss");
+			MessageBox.Show("huhuhu");
 		}
 	}
 }
