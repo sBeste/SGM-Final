@@ -7,24 +7,9 @@ namespace SGM_Final
 		public static Garnish POMMES = new Garnish("Pommes", 1.0);
 		public static Garnish SALAD = new Garnish("Salat", 1.0);
 
-		private String name;
-		private double price;
-
-		private Garnish (String name, double price)
+		private Garnish (String name, double price) : base(name, price)
 		{
-			this.name = name;
-			this.price = price;
-		}
-
-		public override String getName()
-		{
-			return this.name;
-		}
-
-		public override double getPrice()
-		{
-			return this.price;
+			products.Add (this);
 		}
 	}
 }
-

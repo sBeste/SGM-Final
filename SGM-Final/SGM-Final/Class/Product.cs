@@ -6,11 +6,24 @@ namespace SGM_Final
 	public abstract class Product
 	{
 
-		protected List<Product> products;
+		protected static List<Product> products = new List<Product>();
+		private string name;
+		private double price;
 
+		protected Product(string name, double price)
+		{
+			this.name = name;
+			this.price = price;
+		}
 
+		public double getPrice()
+		{
+			return price;
+		}
 
-		public abstract double getPrice();
-		public abstract String getName();
+		public String getName()
+		{
+			return name;
+		}
 	}
 }
