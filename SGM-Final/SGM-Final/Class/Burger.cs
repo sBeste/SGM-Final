@@ -25,7 +25,6 @@ namespace SGM_Final
 		{
 			return this.name;
 		}
-
 	}
 }
 
